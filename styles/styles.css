@@ -28,9 +28,9 @@ aside {
     margin: 1rem;
     border: 3px double rgb(0 0 0/ 0.2); /*1*/
     padding: 1rem;
-    background-color: #bac772;
+    background-color: #b7c040;
     color: #333;
-    text-align: cemter;
+    text-align: center;
 }
 aside img {
     width: 200px;
