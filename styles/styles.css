@@ -1,43 +1,57 @@
+:root {
+    --heading-font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --aside-background-color: #a8aa2a;
+    --image-border: 3px solid rgb(0, 0, 0);
+    --non-heading-font: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
 nav {
-    background-color: darkblue;
+    background-color: rgb(7, 7, 173);
     padding: 10px;
+    font-family: var(--non-heading-font);
 }
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 h1 {
-    color: darkblue;
+    color: rgb(0, 0, 0);
+    font-family: var(--heading-font);
 }
-
+h2 {
+    font-family: var(--heading-font);
+}
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    border: var(--image-border);
     box-shadow: 0 0 30px gray;
 }
 p {
     padding: 0;}
 main {
     max-width: 840px;
+    font-family: var(--non-heading-font);
 }
 aside {
     width: 40rem;
     margin: 1rem;
     border: 3px double rgb(0 0 0/ 0.2); /*1*/
-    padding: 1rem;
-    background-color: #b7c040;
-    color: #333;
+    background-color: var(--aside-background-color);
+    color: #1f1d1d;
+    padding: 3px;
     text-align: center;
+    font-family: var(--non-heading-font);
 }
 aside img {
     width: 200px;
     height: auto;
+    border: var(--image-border);
+    padding: 2px;
 }
 footer {
     margin: 2rem;
     border: 3px dashed rgb(0 0 0/ 0.2);
     text-align: center;
+    font-family: var(--non-heading-font);
 }
