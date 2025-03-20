@@ -5,7 +5,7 @@
     --non-heading-font: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
 nav {
-    background-color: rgb(7, 7, 173);
+    background-color: rgb(8, 7, 173);
     padding: 10px;
     font-family: var(--non-heading-font);
 }
