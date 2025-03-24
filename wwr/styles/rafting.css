@@ -5,32 +5,60 @@
     --heading-color: #004529;
     --non-heading-color: #220906;
 }
-h1 {
-    color: var(--heading-color);
-    font-family: var(--heading-font);
-}
-h2 {
-    font-family: var(--heading-font);
-    color: var(--heading-color);
-}
 html {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
 }
-body {
-    width: 800px;
-    margin: 0 auto;
+content { width: 1000px }
+nav {
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+    display: block;
+    padding: 10px;
+    text-align: left;
 }
 #hero {
-    border: 2px solid red
+    border: 2px red;
+    position: relative;
 }
-
+#hero img{
+    width: 100%;
+}
+#hero article img {
+    width: 200px;
+    float: right;
+}
+article {
+    position: absolute;
+    top: 200px;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgba(249, 218, 45, 0.7);
+    padding: 1rem;
+}
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: var(--heading-font);
+    color: white;
+    font-size: 30px;
+    background-color: #004529;
+}
 main {
+    max-width: 1020px;
     color: var(--non-heading-color);
     text-align: center;
     position: relative;
 }
-
+h2 {
+    font-family: var(--heading-font);
+    font-size: 20px;
+}
 footer {
     margin: 2rem;
     border: 3px solid rgb(0 0 0/ 0.2);
@@ -42,4 +70,5 @@ footer {
 footer a {
     text-decoration: none;
     clear: both;
+    width: 100%;
 }

@@ -1,0 +1,42 @@
+
+main {
+    color: var(--non-heading-color);
+    text-align: center;
+    position: relative;
+}
+
+footer {
+    margin: 2rem;
+    border: 3px solid rgb(0 0 0/ 0.2);
+    text-align: center;
+    color: var(--non-heading-color);
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    clear: both;
+}
+h1 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+}
+h2 {
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+}
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    width: 1000px;
+    margin: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --heading-font: "Roboto Slab", serif;
+    --non-heading-font: "Roboto", sans-serif;
+    --heading-color: #004529;
+    --non-heading-color: #220906;
+}
