@@ -82,7 +82,7 @@ nav {
     border: 5px double #004529;
 }
 
-article {
+#hero article {
     position: absolute;
     top: 200px;
     width: 80%;
@@ -94,7 +94,7 @@ article {
     border: 5px double #004529;
 }
 
-h1 {
+#hero h1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -104,6 +104,8 @@ h1 {
     color: white;
     font-size: 30px;
     background-color: #004529;
+    display: flex;
+    justify-content: center;
 }
 
 main {
@@ -150,6 +152,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: static;
 }
 
 footer a {
