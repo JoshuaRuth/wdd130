@@ -11,6 +11,7 @@ html {
     font-size: 16px;
     display: flex;
     justify-content: center;
+    color: #220906;
 }
 img {
     max-width: 200px;
@@ -24,13 +25,18 @@ header {
     max-width: 1000px;
 }
 
-header h1 {
+h1 {
     font-family: var(--heading-font);
     color: #191A74;
     position: relative;
     font-size: 2rem;
     text-align: center;
     background-color: white;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--heading-color);
 }
 header img {
     margin: 0;
@@ -211,22 +217,25 @@ button {
     background-color: rgba(249, 218, 45, 0.4);
     border: 8px outset #f9da2d;
     margin: 6px;
-    padding: 10px 20px;
+    padding: 6px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-family: var(--heading-font);
 }
-#employee h1{
-    font-family: var(--heading-font);
+#employee {
+    border: 1px red;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--non-heading-font);
+    color: #220906;
 }
-#employee figure {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid red;
+#employee img{
+    width: 150px;
+    height: auto;
+    border: 4px double #004529;
 }
-
 #message label{
     margin: 5px;
     padding: 5px;
