@@ -251,3 +251,67 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+#call_to_action_t{
+    margin: 5px;
+    padding: 5px;
+}
+#rapid_g{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#rapids_1{
+    margin: 15px;
+    border: 5px double #004529;
+    grid-column-start: 1;
+}
+
+#rapids_2{
+    margin: 15px;
+    border: 5px double #004529;
+    grid-column-start: 2;
+}
+
+#rapids_3{
+    margin: 15px;
+    border: 5px double #004529;
+    grid-column-start: 3;
+}
+#trip_table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: 5px double #004529;
+    width: 100%;
+    margin: 1rem;
+    text-align: center;
+}
+
+caption {
+    font-family: var(--heading-font);
+    color: #191A74;
+    font-size: 22px;
+    margin: 5px;
+}
+
+th {
+    border: solid 2px #004529;
+    height: 50px;
+}
+
+td {
+    border: solid 2px #004529;
+    height: 150px;
+}
+
+#trip_des {
+    display: grid;
+    margin: 5px;
+    padding: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
