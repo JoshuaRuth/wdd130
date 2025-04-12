@@ -59,4 +59,39 @@ html {
                 </ul>
             </nav>
 /*
-/*copy and paste this into all parts of website when you have time to edit buttons
+/*copy and paste this into all parts of website when you have time to */ 
+
+
+#trip_des {
+    display: grid;
+    margin: 5px;
+    padding: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid red;
+}
+
+#trip_des h2{
+    order: 1;
+}
+
+#trip_des img{
+    display: flex;
+    border: 5px double #004529;
+    order: 2;
+}
+
+#trip_des article{
+    order: 3;
+}
+
+
+<h2>Trip 1</h2>
+<img src="images/rafting58_600.webp" alt="No Image">
+<article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</article>
+<h2>Trip 2</h2>
+<img src="images/rafting26_600.webp" alt="No Image">
+<article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</article>
+<h2>Trip 3</h2>
+<img src="images/rafting43_600.webp" alt="No Image">
+<article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</article>

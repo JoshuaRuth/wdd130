@@ -308,10 +308,29 @@ td {
     height: 150px;
 }
 
-#trip_des {
-    display: grid;
+.container_t {
     margin: 5px;
     padding: 5px;
+    display: grid;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+}
+
+.t_item1 {
+    margin: 10px; 
+}
+.t_item1 img{
+    border: 5px double #004529;
+}
+.t_item2 {
+    margin: 10px; 
+}
+.t_item2 img{
+    border: 5px double #004529;
+}
+.t_item3 {
+    margin: 10px; 
+}
+.t_item3 img{
+    border: 5px double #004529;
 }
